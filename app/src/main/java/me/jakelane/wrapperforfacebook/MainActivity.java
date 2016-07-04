@@ -591,6 +591,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         // If nothing has happened at this point, we want the default url
-        return FACEBOOK_URL_BASE;
+        return FACEBOOK_URL_BASE+"notifications.php";
     }
 }
