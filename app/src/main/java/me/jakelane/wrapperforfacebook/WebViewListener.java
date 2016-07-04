@@ -52,6 +52,8 @@ class WebViewListener implements AdvancedWebView.Listener {
     private static final String HIDE_BIRTHDAYS = "article%23u_1j_4%7Bdisplay%3Anone%3B%7D";
     // ._59e9._55wr._4g33._400s{display:none}
     private static final String HIDE_TOP_STORIES_BUTTON = "._59e9._55wr._4g33._400s%7Bdisplay%3Anone%7D";
+    // #m_newsfeed_stream{display:none;}"
+    private static final String HIDE_NEWS_FEED = "%23m_newsfeed_stream%7Bdisplay%3Anone%3B%7D";
 
     private final MainActivity mActivity;
     private final SharedPreferences mPreferences;
@@ -124,6 +126,9 @@ class WebViewListener implements AdvancedWebView.Listener {
             if (mPreferences.getBoolean(SettingsActivity.KEY_PREF_MOST_RECENT_MENU, true)) {
                 css += HIDE_TOP_STORIES_BUTTON;
             }
+
+            //Hide News Feed
+            css += "%23m_newsfeed_stream%7Bdisplay%3Anone%3B%7D";
 
             // Inject the css
             JavaScriptHelpers.loadCSS(mWebView, css);
