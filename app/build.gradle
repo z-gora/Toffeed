@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "me.jakelane.wrapperforfacebook"
+        applicationId "zgora.jakelane.wrapperforfacebook"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 14

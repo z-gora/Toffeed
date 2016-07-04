@@ -1,4 +1,4 @@
-package me.jakelane.wrapperforfacebook;
+package zgora.jakelane.wrapperforfacebook;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;

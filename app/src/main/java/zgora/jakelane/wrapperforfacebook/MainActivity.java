@@ -1,4 +1,4 @@
-package me.jakelane.wrapperforfacebook;
+package zgora.jakelane.wrapperforfacebook;
 
 import android.Manifest;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package me.jakelane.wrapperforfacebook;
+package zgora.jakelane.wrapperforfacebook;
 
 import android.app.Activity;
 import android.support.design.widget.Snackbar;

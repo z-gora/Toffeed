@@ -1,4 +1,4 @@
-package me.jakelane.wrapperforfacebook;
+package zgora.jakelane.wrapperforfacebook;
 
 import org.junit.Test;
 
